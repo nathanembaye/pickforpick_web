@@ -1,0 +1,129 @@
+.signUpContainer {
+  height: 50%;
+  width: 26%;
+  min-height: 600px;
+  min-width: 300px;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px 1px #373D56; 
+  background-color: rgba(255, 255, 255, 0.03);
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 5px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.signUpHeaderTitleContainer{
+  display: flex;
+  width: 80%;
+  height: 35%;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.signUpHeaderTextContainer{
+  display: flex;
+  width: 80%;
+  height: 35%;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.signUpHeaderTitleStyle {
+  color: white;
+  margin: 0;
+  align-self: flex-end;
+  padding-left: 3%;
+}
+
+.signUpHeaderTextStyle{
+  color: grey;
+  margin: 1% 0 0 0;
+  align-self: flex-start;
+  padding-left: 3%;
+}
+
+.signUpInputRow{
+  display: flex;
+  width: 100%;
+  height: 15%;
+  justify-content: center;
+  position: relative;
+
+}
+
+.signUpTopHalf {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.signUpMiddle {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signUpBottomHalf {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signUpContactUsText{
+  color: white;
+  font-size: 12px;
+  align-self: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.signUpInput{
+  padding-left: 2%;
+  color: white;
+  outline: none; 
+  border-style: none;
+  width: 80%;
+  height: 70%;
+  background-color: #373D56;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.signUpButton {
+  display: flex;
+  background-color: white;
+  width: 83%;
+  height: 70%;
+  border-radius: 5px;
+  align-self: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.signUpButtonText {
+  color: #292D3F;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.signUpPasswordIcon {
+  display: block;
+  position: absolute;
+  align-self: center;
+  right: 10%;
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+.cardCancelButton {
+    color: grey;
+    height: 80%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.cardUsernameText{
+    align-self: center;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+}
+
+.cardDisplayNameText{
+    align-self: center;
+    text-align: center;
+    color: grey;
+    font-size: 0.7em;
+}
+
+.cardImage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+    margin-bottom: 2%;
+}
+
+.cardImageData {
+    width: 35%;
+    height: 75%;
+    min-height: 72px;
+    min-width: 72px;
+    border-radius: 70%;
+    align-self: center;
+    object-fit: contain;
+}
+
+.cardUsername {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+
+.cardDisplayName {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+
+.cardSubscribButtonText{
+    color: white;
+    align-self: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.cardContainer {
+    width: 25%;
+    height: 100%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px 1px #373D56; 
+    background-color: rgba(255, 255, 255, 0.03);
+    min-width: 100px;
+    min-height: 150px;
+    margin: 4px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.cardtop {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10%;
+}
+
+.cardMiddle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+}
+
+.cardBottom {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    border-width: 0.1px 0px 0px 0px;
+    border-color: grey;
+    border-style: solid;
+}

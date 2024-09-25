@@ -1,38 +1,168 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 50%;
+  width: 26%;
+  min-height: 600px;
+  min-width: 300px;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px 1px #373D56; 
+  background-color: rgba(255, 255, 255, 0.03);
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 5px;
+  align-self: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.topHalf {
+  width: 100%;
+  height: 50%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.logo {
+  width: 70%;
+  height: 70%;
+  align-self: center;
+}
+
+.bottomHalf {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.inputRow {
+  display: flex;
+  width: 100%;
+  height: 33.33%;
+  justify-content: center;
+  position: relative;
+}
+
+.signUpContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputBox { 
+  outline: none; 
+  border-style: none;
   color: white;
+  width: 80%;
+  padding-left: 3%;
+  background-color: #373D56;
+  display: flex;
+  height: 75%;
+  align-self: center;
+  border-radius: 4px;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.passwordIcon {
+  display: block;
+  position: absolute;
+  align-self: center;
+  right: 10%;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signInButton {
+  background-color: white;
+  display: flex;
+  width: 80%;
+  height: 75%;
+  align-self: center;
+  border-radius: 4px;
+  justify-content: center;
+  padding-left: 3%;
+}
+
+.signInButtonText {
+  color: #292D3F;
+  font-weight: bold;
+  align-self: center;
+  height: auto;
+  width: auto;
+}
+
+.forgotPassword {
+  display: flex;
+  align-self: center;
+  width: 80%;
+  height: 30%;
+  align-self: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.forgotPasswordLink {
+  color: white;
+  height: 40%;
+  width: auto;
+  font-size: 12px;
+}
+
+.signUpMessage {
+  display: flex;
+  width: 80%;
+  height: 30%;
+  align-self: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.signUpMessageText{
+  color: grey;
+  height: auto;
+  width: auto;
+}
+
+.signUpMessageLink{
+  color: white;
+  align-self: center;
+  height: auto;
+  width: auto;
+}
+
+.App a {
+  text-decoration: none;
+}
+
+.App a:hover {
+  opacity: 0.7;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.App input:focus { 
+  border-width: 0.1;
+  border-color: white;
+  border-style: solid;
+}
+
+.titleText{
+  color: white;
+  font-size: 100;
+  align-self: center;
+  font-family: "Caveat";
 }

@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-scorecard-staging-9c322-authRole",
+      "UnauthRoleArn": "arn:aws:iam::646256251390:role/amplify-scorecard-staging-9c322-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::646256251390:role/amplify-scorecard-staging-9c322-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-scorecard-staging-9c322-deployment",
+      "UnauthRoleName": "amplify-scorecard-staging-9c322-unauthRole",
+      "StackName": "amplify-scorecard-staging-9c322",
+      "StackId": "arn:aws:cloudformation:us-east-1:646256251390:stack/amplify-scorecard-staging-9c322/3dda1ed0-38ac-11ef-a287-0affc02222ef",
+      "AmplifyAppId": "d19t9ker7qzhft"
+    }
+  }
+}
