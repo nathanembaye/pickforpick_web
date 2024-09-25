@@ -10,10 +10,10 @@ import awsconfig from '../src/aws-exports';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 Amplify.configure(awsconfig);
-
+console.log("here", process.env.PUBLIC_URL)
 root.render(
   <React.StrictMode>
-     <BrowserRouter>
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
      </BrowserRouter>
   </React.StrictMode>
